@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    
+    overflow-x: hidden;
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: min(2vh, 2vw);
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: min(1.45vh, 1.45vw);
+}
+
+header{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border:1px solid black;
+}
+
+.Logo{
+    height: 90%;
+    width: 12%;
+    min-width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border:1px solid black;
+    border-radius: 45px;
+}
+
+.Icon{
+    max-height: 32px;
+    max-width: 32px;
+}
+
+nav{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Geoposition{
+    height: 90%;
+    width: 12%;
+    min-width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+    border-radius: 45px;
+}
+
+.GeopositionText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+main{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border:1px solid black;
+}
+
+.SearchBar{
+    height: 4%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    border:1px solid black;
+    border-radius: 45px;
+}
+
+#loupe{
+    max-height: 32px;
+    max-width: 32px;
+}
+
+#search{
+    height: 90%;
+    width: 95%;
+    margin-left: 1%;
+
+    border: none;
+}
+
+.Content{
+    height: 96%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border:1px solid black;
+}
+
+.MainContent{
+    height: 55%;
+    width: 50%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+
+    border:1px solid black;
+}
+
+.SecondaryContentRow{
+    height: 30%;
+    width: 100%;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    /* border:1px solid black; */
+}
+
+.SecondaryContent{
+    height: 100%;
+    width: 15%;
+
+    border:1px solid black;
+}
+
+footer{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border:1px solid black;
+}
+
+.FooterLinksBlock{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border:1px solid black;
+}
+
+.FooterLinks{
+    height: 100%;
+    width: 50%;
+    text-align: left;
+    border:1px solid black;
+}
+
+.FooterMediaAndLinks{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border:1px solid black;
+}
+
+.SocialMedia{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border:1px solid black;
+}
+
+#inst, #vk, #tw, #fb, #yt{
+    max-height: 32px;
+    max-width: 32px;
+}
+
+.BigFooterLinks{
+    height: 70%;
+    width: 100%;
+    text-align: center;
+}
